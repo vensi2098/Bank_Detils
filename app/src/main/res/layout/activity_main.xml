@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/All_Bank_Details"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            Union-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/union_img" />
+
+                <ImageButton
+                    android:id="@+id/btnCallUb"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitUb"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareUb"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--            SBI-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/sbii_img" />
+
+                <ImageButton
+                    android:id="@+id/btnCallSbi"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitSbi"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent"
+                    android:contentDescription="@string/todo" />
+
+                <ImageButton
+                    android:id="@+id/btnShareSbi"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--                Axis-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingEnd="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/axis_bank" />
+
+                <ImageButton
+                    android:id="@+id/btnCallAxis"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitAxis"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareAxis"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--            icici bank-->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/iciciciciii" />
+
+                <ImageButton
+                    android:id="@+id/btnCallIcici"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitIcici"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareicici"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+
+            <!--            Bank of Baroda-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/bob_img" />
+
+
+                <ImageButton
+                    android:id="@+id/btnCallBob"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitBob"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareBob"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--Bank of india-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/boi_img" />
+
+
+                <ImageButton
+                    android:id="@+id/btnCallBoi"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                 android:id="@+id/btnVisitBoi"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareBoi"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+<!--            panjab-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="30dp"
+                    android:src="@drawable/pnb_img" />
+
+                <ImageButton
+                    android:id="@+id/btnCallpng"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitPng"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnSharePng"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--    Hdfc Bank-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingEnd="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hhdfc_img" />
+
+
+                <ImageButton
+                    android:id="@+id/btnCallHdfc"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitHdfc"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareHdfc"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--            Yes Bank-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingEnd="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/yes_bank_img" />
+
+
+                <ImageButton
+                    android:id="@+id/btnCallYes"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitYes"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareYes"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+            <!--            central Bank-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingEnd="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/central_img" />
+
+                <ImageButton
+                    android:id="@+id/btnCallCentral"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/called" />
+
+                <ImageButton
+                    android:id="@+id/btnVisitCentral"
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sent" />
+
+                <ImageButton
+                    android:id="@+id/btnShareCentral"
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shar" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
